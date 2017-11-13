@@ -1,0 +1,88 @@
+  "Pseudocódigo para llenado de una matriz."
+
+INICIO
+ m1: matriz 1
+ r1: número de renglones
+ c1:número de columnas
+ cc: contador de columnas
+ cr: contador de renglones
+ cr:=0
+ cc:=0	
+	Escribir ("Ingresar el numero de renglones de la matriz 1:")	
+	Leer ("valor entero ingresado del número del renglón")
+	Escribir ("Ingresar el numero de columnas de la matriz 1:")
+	Leer ("valor entero ingresado del número de columnas")
+	
+	Mientras cr<r1 entonces 
+		cc:=0
+			Mientras cc<c1
+			Escribir ("Digite un numero para matriz 1")
+			Leer("valores enteros ingresados y asognarlos en [cr] y [cc]")
+			Escribir ("Valores enteros ingresados de la matriz")
+		cc:=cc+1
+			Fin Mientras
+	                  cr:=cr+1
+			
+	Fin Mientras
+	cr:=0
+
+	Mientras cr<r1 entonces
+		cc:=0
+			Mientras cc<c1 entonces
+			Escribir ("Valor entero para matriz 1 para [cr][cc]")
+			cc:=cc+1
+			Fin Mientras
+		cr:=cr+1
+	Fin Mientras
+Fin 
+
+
+   " Pseudocódigo para llenado e impresión de una matriz"
+
+INICIO
+ m1: matriz 1
+ r1: número de renglones
+ c1:número de columnas
+ cc: contador de columnas
+ cr: contador de renglones
+ cr:=0
+ cc:=0	
+	Escribir ("Ingresar el numero de renglones de la matriz 1:")	
+	Leer ("valor entero ingresado del número del renglón")
+	Escribir ("Ingresar el numero de columnas de la matriz 1:")
+	Leer ("valor entero ingresado del número de columnas")
+	
+	Mientras cr<r1 entonces 
+		cc:=0
+			Mientras cc<c1
+			Escribir ("Digite un numero para matriz 1")
+			Leer("valores enteros ingresados y asognarlos en [cr] y [cc]")
+			Escribir ("Valores enteros ingresados de la matriz")
+			cc:=cc+1
+			Fin Mientras
+	                  cr:=cr+1
+			
+	Fin Mientras
+	cr:=0
+
+	Mientras cr<r1 entonces
+		Escribir ("Valor entero usando el salto de linea")
+		cc:=0
+			Mientras cc<c1 entonces
+			Escribir ("Valor entero para matriz 1 para [cr][cc]")
+			cc:=cc+1
+			Fin Mientras
+		cr:=cr+1
+	Fin Mientras
+Fin 
+
+
+
+
+
+
+
+
+
+
+		
